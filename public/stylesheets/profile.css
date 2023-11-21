@@ -1,0 +1,71 @@
+#profile{
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4vw;
+    /* background-color: red; */
+}
+#profile>img{
+    width: 35%;
+    height: 50%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+.info{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5vw;
+}
+.info>p{
+    opacity: 0.8;
+    font-size: 1.2vw;
+}
+.info>h2{
+    color: black;
+}
+.info>h3{
+    opacity: 0.8;
+    font-size: 2.1vw;
+}
+.info>.btn0{
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+
+}
+.info>.btn0 a{
+    text-decoration: none;
+    color: black;
+    padding: 0.5vw 2vw;
+    border: 1px solid black;
+    border-radius: 25px;
+    font-size: 1.2vw;
+}
+.info>.btn0 .resume:hover{
+   background-color: black;
+   color: aliceblue;
+}
+.info>.btn0 .Contact:hover{
+    background-color: black;
+    color: whitesmoke;
+ }
+.info>.btn0 a:nth-last-child(1){
+    background-color: #000000cf;
+    color: aliceblue;
+}
+.info>.social-links{
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+}
+.info>.social-links>a{
+    text-decoration: none;
+    color: black;
+    font-size: 2.2vw;
+}

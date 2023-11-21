@@ -1,0 +1,60 @@
+#about{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vw;
+    /* background-color: red; */
+}
+#about .headings{
+    text-align: center;
+    /* background-color: aqua; */
+}
+#about .headings>p{
+    opacity: 0.8;
+}
+#about .headings>h3{
+    font-size: 3vw;
+    font-weight: 700;
+    line-height: 2vw;
+}
+.about-me{
+    /* background-color: red; */
+    display: flex;
+   gap: 5vw;
+}
+.about-me>img{
+    width: 40%;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center;
+}
+.about-me .l-about{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 3vw;
+}
+.about-me .l-about .cards{
+    display: flex;
+    gap: 1.5vw;
+}
+
+.cards .card{
+    width: 20vw;
+    height: 18vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(0, 0, 0, 0.539)
+    /* background-color: aqua; */
+}
+.cards .card i{
+    font-size: 2vw;
+}
+.cards .card>p{
+    opacity: 0.8;
+}

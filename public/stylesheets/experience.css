@@ -34,9 +34,73 @@
     border-radius: 25px;
     border: 2.5px solid #00000085;
 }
-.Development>h3{
+
+.Development>h3 {
     text-align: center;
     margin-top: 1vw;
     opacity: 0.8;
     /* background-color: red; */
+}
+
+.Development .skills {
+    height: 60%;
+    display: flex;
+    /* background-color: red; */
+}
+
+.Development .skills .col {
+    width: 48%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3vw;
+    /* border: 1px solid black; */
+    /* background-color: aqua; */
+}
+
+.Development .skills .col .skill{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+    /* background-color: coral; */
+}
+.Development .skills .col .skill i{
+    /* background-color: chartreuse; */
+    font-size: 2vw;
+}
+.Development .skills .col .skill p{
+    font-weight: 700;
+    font-size: 1.3vw;
+    /* background-color: blue; */
+}
+.Development .skills .col .skill p span{
+    opacity: 0.6;
+}
+.libray{
+    width: 45%;
+    height: 10vh;
+    /* background-color: crimson; */
+}
+.libray .skill{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    /* margin-left: 3vw; */
+    justify-content: center;
+    gap: 1vw;
+}
+.libray  .skill i{
+    /* background-color: chartreuse; */
+    font-size: 2vw;
+}
+.libray .skill p{
+    font-weight: 700;
+    font-size: 1.3vw;
+    /* background-color: blue; */
+}
+.libray .skill p span{
+    opacity: 0.6;
 }

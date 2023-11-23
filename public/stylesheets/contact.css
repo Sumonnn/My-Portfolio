@@ -61,3 +61,72 @@ form>button{
     width: 50%;
     margin-left: 25%;
 }
+
+@media all and (min-width: 260px) and (max-width: 767px) {
+    #contact{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 4vw;
+        /* background-color: red; */
+    }
+    .headeings{
+        text-align: center;
+    }
+    .headeings p{
+        opacity: 0.5;
+        line-height: 1vw;
+        font-size: 7vw;
+    }
+    .headeings h1{
+        font-size: 4.8vw;
+    }
+    
+    .links{
+        width: 100%;
+        height: 12vh;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2.5vw;
+        border: 2px solid #00000058;
+        /* background-color: aqua; */
+    }
+    .links>a{
+        font-size: 3.9vw;
+        font-weight: 700;
+        text-decoration: none;
+        color: black;
+    }
+    .links a>span{
+        border-bottom: 2px solid transparent;
+        padding-bottom: 0.5vw;
+    }
+    .links a>span:hover{
+        border-bottom: 2px solid black;
+        padding-bottom: 0.5vw;
+        opacity: 0.5;
+    }
+    form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+        /* background-color: aqua; */
+    }
+    form>input{
+       background-color: rgba(173, 216, 230, 0.525) !important;  
+    }
+    form>textarea{
+       background-color: rgba(173, 216, 230, 0.525) !important;  
+    }
+    form>button{
+        width: 50%;
+        margin-left: 25%;
+    }
+    
+}

@@ -5,7 +5,7 @@ const portfolioDetails = require('../models/detailsModels');
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index');
 });
 
 router.post('/portfolio/save', async (req, res) => {
@@ -14,6 +14,7 @@ router.post('/portfolio/save', async (req, res) => {
     await detail.save();
     res.redirect('/');
   } catch (error) {
+    console.log(error);
     res.send(error);
   }
 })

@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 
-const url = 'mongodb://127.0.0.1:27017/portfolio';
+const url = process.env.URL;
+
 
 mongoose
     .connect(url)
